@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+   <title>Examples</title>
+</head>
+<body>
+   <div id="result"></div>
+   <script>
+      function alphaOrder(str){
+         var arr = str.split("");
+         arr.sort();
+         var sortedStr = arr.join("");
+         return sortedStr
+      }
+      document.getElementById("result").innerHTML = alphaOrder("Education")
+   </script>
+</body>
+</html>

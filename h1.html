@@ -1,0 +1,16 @@
+<html>
+<head>
+   <title> Example - Converting string to character array </title>
+</head>
+<body>
+   <h2> Converting string to character array. </h2>
+   <p> Using the string.split('') method to convert to the character array:</p>
+   <div id="charArray"> </div>
+   <script type="text/javascript">
+      let charArray = document.getElementById("charArray");
+      let string = "tutorialsPoint";
+      let arrayOfChar = string.split(''); // passing empty string as a delimeter.
+      charArray.innerHTML = '[ ' + arrayOfChar + ' ]';
+   </script>
+</body>
+</html>
